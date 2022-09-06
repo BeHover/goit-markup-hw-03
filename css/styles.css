@@ -310,6 +310,10 @@ button {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.project-link {
+  color: var(--color-dark);
+}
+
 .project-link:hover, .project-link:focus {
   color: var(--color-dark);
 }
