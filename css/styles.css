@@ -36,6 +36,10 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 button {
   padding: 0;
   border: none;
@@ -44,6 +48,8 @@ button {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .logo,
@@ -70,7 +76,7 @@ button {
 
 .btn {
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
 }
 
 .btn-primary {
@@ -274,10 +280,6 @@ button {
   border-radius: 0 0 4px 4px;
 }
 
-.team-item img {
-  display: block;
-}
-
 .team-name {
   font-weight: 500;
   line-height: 1.1;
@@ -320,10 +322,6 @@ button {
 
 .project-item {
   max-width: 370px;
-}
-
-.project-item img {
-  display: block;
 }
 
 .project-content {
